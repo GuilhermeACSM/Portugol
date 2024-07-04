@@ -20,6 +20,7 @@ programa {
         senao {
           se (y == 0)
           escreva("Eixo X")
+
           // x e y positivos ou seja Q1 no plano cartesiano
           senao {
             se ((x > 0) e (y > 0)) {
