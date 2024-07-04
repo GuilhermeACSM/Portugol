@@ -1,7 +1,7 @@
 programa {
   inclua biblioteca Matematica
 
-    inteiro decrescente, crescente, x, y, z
+    inteiro decrescente, crescente, x, y
 
   funcao inicio() {
 
