@@ -10,9 +10,6 @@ programa {
       escreva("Senha invalida! Tente novamente: ")
       leia(senha)
     }
-
-    se(senha == 2002) {
-        escreva("Acesso permitido!")
-    }
+      escreva("Acesso permitido!")
   }
 }
