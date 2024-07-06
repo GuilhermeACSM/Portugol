@@ -1,7 +1,7 @@
 programa {
+  inclua biblioteca Matematica
 
-    inteiro x, soma, contador
-    real media
+    real media, x, soma, contador
 
   funcao inicio() {
     soma = 0
@@ -10,12 +10,22 @@ programa {
     escreva("Digite as idades: \n")
     leia(x)
 
-    enquanto ( x > 0) {
+    enquanto (x >= 0) {
       contador = contador + 1
       soma = soma + x
       leia(x)
       media = soma/contador
     }
-    escreva("MEDIA = ", media)
+
+    se(contador == 0) {
+      escreva("Valor Inexistente")
+    }
+
+    senao{
+      escreva("MEDIA = ", Matematica.arredondar(media,2))
+    }
+   
+
+    
   }
 }
