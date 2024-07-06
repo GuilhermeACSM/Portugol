@@ -1,7 +1,7 @@
 programa {
     inclua biblioteca Matematica
 
-      real total1, total2, total3, total4, total5, prod1, prod2, prod3, prod4, prod5
+      real total1, total2, total3, total4, total5
       inteiro quantidade, codigo
 
   funcao inicio() {
@@ -12,7 +12,7 @@ programa {
     const real Produto_4  = 8.90
     const real Produto_5  = 7.32
 
-    escreva("Código do produto comprado: ")
+    escreva("CÃ³digo do produto comprado: ")
     leia(codigo)
     escreva("Quantidade comprada: ")
     leia(quantidade)
