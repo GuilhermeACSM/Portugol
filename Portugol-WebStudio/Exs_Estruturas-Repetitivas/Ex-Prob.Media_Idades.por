@@ -4,6 +4,7 @@ programa {
     real media, x, soma, contador
 
   funcao inicio() {
+    //Contadores
     soma = 0
     contador = 0
 
