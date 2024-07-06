@@ -31,6 +31,8 @@ programa {
         }
       }
     }
+
+    // Mensagem final e Contagem final
   escreva("MUITO OBRIGADO\n")
    escreva("Álcool: ", alcool, "\n")
    escreva("Gasolina: ", gasolina, "\n")
