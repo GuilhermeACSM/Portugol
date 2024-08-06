@@ -17,7 +17,7 @@ programa {
     real altura[n]
    
     para(inteiro i = 0; i <= n-1; i++) {
-      escreva("Dados da pessoa")
+      escreva("Dados da ", i+1, "ª pessoa")
       escreva("\nNome: ")
       leia(nome[i])
       escreva("Idade: ")
