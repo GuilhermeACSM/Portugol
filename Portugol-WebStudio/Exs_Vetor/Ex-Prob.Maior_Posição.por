@@ -1,4 +1,4 @@
-programa {
+ programa {
   funcao inicio() {
 
     inteiro n, nMAIOR = 0, posicao = 0
