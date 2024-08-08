@@ -65,6 +65,7 @@ programa {
           }
           escreva(matriz[linha][coluna], "  ")
         }
+        escreva("\n")
       }
 
     }
