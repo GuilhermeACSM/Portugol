@@ -1,7 +1,7 @@
 programa {
   funcao inicio() {
         inteiro n, l, c
-        real soma = 0, quadrado = 0
+        real soma = 0
 
     escreva("Qual a ordem da matriz? ")
     leia(n)
