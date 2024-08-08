@@ -26,54 +26,48 @@ programa {
       escreva("\nSOMA DOS POSITIVOS: ", soma, "\n")
 
       //Escolher Linha
-      /*
         escreva("\nEscolha uma linha: ")
         leia(l)
         escreva("LINHA ESCOLHIDA: ")
-      para(inteiro coluna = 0; coluna <= n-1; coluna++) {
-        escreva(matriz[l][coluna], " ")
+      para(inteiro linha = 0; linha <= n-1; linha++) {
+        escreva(matriz[l][linha], "  ")
       }
-      */
+
+      escreva("\n")
 
       //Escolher Coluna
-      /*
         escreva("\nEscolha uma coluna: ")
         leia(c)
         escreva("COLUNA ESCOLHIDA: ")
-      para(inteiro linha = 0; linha <= n-1; linha++) {
-        escreva(matriz[linha][c])
+      para(inteiro coluna = 0; coluna <= n-1; coluna++) {
+        escreva(matriz[coluna][c], "  ")
       }
-      */
       
+      escreva("\n")
+
       //Diagonal Principal
       escreva("\nDIAGONAL PRINCIPAL: \n")
       para(inteiro linha = 0; linha <= n-1; linha++) {
         para(inteiro coluna = 0; coluna <= n-1; coluna++) {
           se(linha == coluna) {
-            escreva(matriz[linha] [coluna], " ")
+            escreva(matriz[linha] [coluna], "  ")
           }
         }
       }
 
+      escreva("\n")
       //Matriz Alterada
-      /*
-      escreva("MATRIZ ALTERADA: ")
+      escreva("\nMATRIZ ALTERADA: \n")
       para(inteiro linha = 0; linha <= n-1; linha++) {
         para(inteiro coluna = 0; coluna <= n-1; coluna++) {
           se(matriz[linha][coluna] < 0) {
-            quadrado = matriz[linha][coluna] * matriz[linha][coluna]
+            matriz[linha][coluna] = matriz[linha][coluna] * matriz[linha][coluna]
           }
-          escreva(matriz[linha][coluna], " ",quadrado)
+          escreva(matriz[linha][coluna], "  ")
         }
       }
-      */
-      
-      
-
-
 
     }
-
 
   }
 }
