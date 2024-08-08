@@ -29,8 +29,8 @@ programa {
         escreva("\nEscolha uma linha: ")
         leia(l)
         escreva("LINHA ESCOLHIDA: ")
-      para(inteiro linha = 0; linha <= n-1; linha++) {
-        escreva(matriz[l][linha], "  ")
+      para(inteiro coluna = 0; coluna <= n-1; coluna++) {
+        escreva(matriz[l][coluna], "  ")
       }
 
       escreva("\n")
@@ -39,14 +39,14 @@ programa {
         escreva("\nEscolha uma coluna: ")
         leia(c)
         escreva("COLUNA ESCOLHIDA: ")
-      para(inteiro coluna = 0; coluna <= n-1; coluna++) {
-        escreva(matriz[coluna][c], "  ")
+      para(inteiro linha = 0; linha <= n-1; linha++) {
+        escreva(matriz[linha][c], "  ")
       }
       
       escreva("\n")
 
       //Diagonal Principal
-      escreva("\nDIAGONAL PRINCIPAL: \n")
+      escreva("\nDIAGONAL PRINCIPAL: ")
       para(inteiro linha = 0; linha <= n-1; linha++) {
         para(inteiro coluna = 0; coluna <= n-1; coluna++) {
           se(linha == coluna) {
